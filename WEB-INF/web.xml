@@ -1,0 +1,262 @@
+<web-app>
+	<!-- session-time -->
+	<session-config>
+		<session-timeout>60</session-timeout>
+	</session-config>
+
+	<servlet>
+		<servlet-name>listMapping</servlet-name>
+		<servlet-class>servlet.ListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>listMapping</servlet-name>
+		<url-pattern>/list</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>InsertMapping</servlet-name>
+		<servlet-class>servlet.InsertServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>InsertMapping</servlet-name>
+		<url-pattern>/Insert</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>detailMapping</servlet-name>
+		<servlet-class>servlet.DetailServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>detailMapping</servlet-name>
+		<url-pattern>/detail</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- UpdateServlet -->
+	<servlet>
+		<servlet-name>updateMapping</servlet-name>
+		<servlet-class>servlet.UpdateServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>updateMapping</servlet-name>
+		<url-pattern>/update</url-pattern>
+	</servlet-mapping>
+	<!-- deleteServlet -->
+	<servlet>
+		<servlet-name>deleteMapping</servlet-name>
+		<servlet-class>servlet.DeleteServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteMapping</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<!-- deleteServlet -->
+	<servlet>
+		<servlet-name>searchMapping</servlet-name>
+		<servlet-class>servlet.SearchServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>searchMapping</servlet-name>
+		<url-pattern>/search</url-pattern>
+	</servlet-mapping>
+
+	<!-- LoginServlet -->
+	<servlet>
+		<servlet-name>loginMapping</servlet-name>
+		<servlet-class>servlet.LoginServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>loginMapping</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- LogoutServlet -->
+	<servlet>
+		<servlet-name>logoutMapping</servlet-name>
+		<servlet-class>servlet.LogoutServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>logoutMapping</servlet-name>
+		<url-pattern>/logout</url-pattern>
+	</servlet-mapping>
+
+
+
+
+	<!-- InsertIntoCartServlet -->
+	<servlet>
+		<servlet-name>insertIntoCartMapping</servlet-name>
+		<servlet-class>servlet.InsertIntoCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insertIntoCartMapping</servlet-name>
+		<url-pattern>/insertIntoCart</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- showCartServlet -->
+	<servlet>
+		<servlet-name>showCartMapping</servlet-name>
+		<servlet-class>servlet.ShowCartServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>showCartMapping</servlet-name>
+		<url-pattern>/showCart</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- BuyConfirmServlet -->
+	<servlet>
+		<servlet-name>buyConfirmMapping</servlet-name>
+		<servlet-class>servlet.BuyConfirmServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>buyConfirmMapping</servlet-name>
+		<url-pattern>/buyConfirm</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- ShowOrderedItemServlet -->
+	<servlet>
+		<servlet-name>showOrderedItemMapping</servlet-name>
+		<servlet-class>servlet.ShowOrderedItemServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>showOrderedItemMapping</servlet-name>
+		<url-pattern>/showOrderedItem</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- ShowOrderedItemServlet -->
+	<servlet>
+		<servlet-name>insertIniDataMapping</servlet-name>
+		<servlet-class>servlet.InsertIniDataServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insertIniDataMapping</servlet-name>
+		<url-pattern>/insertIniData</url-pattern>
+	</servlet-mapping>
+
+	<!--changePasswordServlet -->
+	<servlet>
+		<servlet-name>changePasswordMapping</servlet-name>
+		<servlet-class>servlet.ChangePasswordServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>changePasswordMapping</servlet-name>
+		<url-pattern>/changePassword</url-pattern>
+	</servlet-mapping>
+
+
+	<!--ShowHistoryOrderedItemServlet -->
+	<servlet>
+		<servlet-name>showHistoryOrderedItemMapping</servlet-name>
+		<servlet-class>servlet.ShowHistoryOrderedItemServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>showHistoryOrderedItemMapping</servlet-name>
+		<url-pattern>/showHistoryOrderedItem</url-pattern>
+	</servlet-mapping>
+
+
+	<!--ShowSalesByMonthServlett -->
+	<servlet>
+		<servlet-name>showSalesByMonthMapping</servlet-name>
+		<servlet-class>servlet.ShowSalesByMonthServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>showSalesByMonthMapping</servlet-name>
+		<url-pattern>/showSalesByMonth</url-pattern>
+	</servlet-mapping>
+
+
+	<!--InsertUserServlett -->
+	<servlet>
+		<servlet-name>insertUserMapping</servlet-name>
+		<servlet-class>servlet.InsertUserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insertUserMapping</servlet-name>
+		<url-pattern>/insertUser</url-pattern>
+	</servlet-mapping>
+
+
+
+
+
+	<!--/listUser Servlett -->
+	<servlet>
+		<servlet-name>listUserMapping</servlet-name>
+		<servlet-class>servlet.ListUserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>listUserMapping</servlet-name>
+		<url-pattern>/listUser</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!--deleteUser Servlett -->
+	<servlet>
+		<servlet-name>deleteUserMapping</servlet-name>
+		<servlet-class>servlet.DeleteUserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteUserMapping</servlet-name>
+		<url-pattern>/deleteUser</url-pattern>
+	</servlet-mapping>
+
+
+	<!--UpdateUser Servlett -->
+	<servlet>
+		<servlet-name>updateUserMapping</servlet-name>
+		<servlet-class>servlet.UpdateUserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>updateUserMapping</servlet-name>
+		<url-pattern>/updateUser</url-pattern>
+	</servlet-mapping>
+
+
+	<!--/detailUser Servlett -->
+	<servlet>
+		<servlet-name>detailUserMapping</servlet-name>
+		<servlet-class>servlet.DetailUserServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>detailUserMapping</servlet-name>
+		<url-pattern>/detailUser</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>
+
+
+
+
+
