@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+/*
+ナビメニュー
+*/
+#nav {
+	width:300px;
+	position:fixed;
+	top:107px;
+	left:30px;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+.page-title {
+	border-bottom: 3px solid #000;
+}
+
+p{
+	color:red;
+	font-Weight:bold;
+	text-align:center;
+	animation: flash 2s linear infinite;
+}
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+
+  100% {
+    opacity: 1;
+  }
+}
+
+table {
+	margin: 0 auto;
+	margin-top:80px;
+}
+
+th {
+	background-color: #4682b4;
+}
+
+td {
+	background-color: #7fffd4;
+}
+.submit{
+	display: flex;
+    justify-content: center;
+    margin-top:3rem;
+}
+
+.button-color{
+	background:pink;
+}

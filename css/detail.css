@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.wrap {
+	margin-top: 100px;
+}
+
+/*
+ナビメニュー
+*/
+#nav {
+	width:400px;
+	position:fixed;
+	top:107px;
+	left:30px;
+}
+a{
+	padding: 3px;
+}
+/*
+ここまで
+*/
+h1 {
+	text-align: center;
+}
+
+.detail-title {
+	border-bottom: 3px solid #000;
+}
+/*
+アップデートデリ－トボタン
+*/
+.ud-button {
+	display: flex;
+	justify-content: center;
+}
+
+.inline-block {
+	margin: 10px;
+}
+
+table {
+	margin: 0 auto;
+}
+
+th {
+	background-color: #4682b4;
+}
+
+td {
+	background-color: #7fffd4;
+}

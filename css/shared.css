@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/*
+共通css
+showCart.jsp
+buyConfirm.jsp
+ShowOrderedItem.jsp
+insertIniData.jsp
+*/
+
+
+#nav {
+	width:400px;
+	position:fixed;
+	top:120px;
+	left:30px;
+}
+a{
+	padding: 3px;
+}
+
+h1 {
+
+}
+
+.page-title {
+	border-bottom: 3px solid #000;
+	text-align: center;
+}
+table {
+	margin: 0 auto;
+	text-align:center;
+}
+th{
+	background:#6666ff;
+	width:200px;
+}
+td{
+
+}
+hr{
+	align:center;
+	size:5;
+	 height: 4px;
+	background-color:#333;
+	opacity:0.2;
+
+}
+
+
+/*
+共通css
+showCart.jsp
+buyConfirm.jsp
+ShowOrderedItem.jsp
+insertIniData.jsp
+*/
+
+
+/*
+showCart.jsp
+*/
+.total{
+	font-size:2rem;
+	margin-left:30px;
+	padding-left: 30px
+}
+.submit{
+	width:120px;
+	height:50px;
+	background:red;
+	border-radius:50%;
+}
+.submit:hover{
+	opacity:0.6;
+}
+.buy-form{
+	position:absolute;
+	bottom:300px;
+	left:1000px;
+}
+
+/*
+showCart.jsp
+*/

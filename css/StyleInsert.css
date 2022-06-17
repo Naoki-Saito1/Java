@@ -1,0 +1,16 @@
+@charset "UTF-8";
+h1  {
+	text-align:center;
+
+}
+.title {
+	border-bottom:3px solid #333;
+}
+
+.wrap{
+	text-align:center;
+	margin-top:100px;
+}
+table{
+	margin: 0 auto;
+}
