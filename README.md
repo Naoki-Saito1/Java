@@ -1,6 +1,6 @@
 # Java
 
--リポジトリ作成
--addFile
--UploadFile
--ドラック＆ドロップ
+- リポジトリ作成
+- addFile
+- UploadFile
+- ドラック＆ドロップ
